@@ -10,7 +10,7 @@ License: CC BY 4.0
 
 This work presents a hypothesis in which the impact of an iron-nickel body
 ~300 km in diameter on the Tarim Basin (39°N, 83°E) in the Late Pleistocene
-(~12,000 years ago) is considered the primary cause of the formation of
+(~12,800 years ago) is considered the primary cause of the formation of
 Earth's major surface features: lithospheric plates, mountain systems,
 continental shelves, oceanic ridges, as well as a number of geophysical,
 climatic, and biological phenomena.
@@ -69,7 +69,7 @@ conceal conflicts, but to make them subjects of further research.
 ### 1.2. Key Premise
 
 The main premise of the hypothesis: the impact of an iron-nickel body
-~300 km in diameter on Earth ~12,000 years ago became the primary cause
+~300 km in diameter on Earth ~12,800 years ago became the primary cause
 of the formation of most observable relief elements and a number of
 geophysical phenomena. Consequences are derived from this premise, some
 of which are verifiable by independent methods.
@@ -90,15 +90,17 @@ configuration.
 The visualization is an illustrative artifact, not a numerical model.
 Time scales are compressed unevenly; the scenario constants, however,
 match the computed values of this work: the year counter is set to
-12,800 cal BP — the Allerod/Younger Dryas boundary at which the
-geochemical markers are recorded (§13; the GISP2 platinum peak is
-dated against annually layered ice: Petaev et al., 2013); the
+12,800 cal BP — a rounding of the Allerod/Younger Dryas boundary
+interval (YD onset 12,870 ± 30 cal BP; Cheng et al., 2020) at which
+the geochemical markers are recorded (§13; the GISP2 platinum peak
+is 12,833-12,738 cal BP against annually layered ice: Petaev et al.,
+2013); the
 pre-impact axial tilt is ~24° per astronomical theory (§10.3); the
 instantaneous tilt impulse is 0.125° (computed in §10); the
 subsequent change to the present 23.44° is shown as a smooth drift.
-The plate-deceleration model estimate gives ~12,000 years (§4.5).
-The difference reflects the uncertainty of the model parameters and
-is denoted throughout the text as "~12,000 years ago".
+The plate-divergence model (§4.5) does not set the calendar date:
+the impulse phase completes within weeks. Throughout the text the
+event is denoted as "~12,800 years ago".
 
 ## 2. EVENT PARAMETERS
 
@@ -150,7 +152,8 @@ mantle.
 Phases:
   (a) ATMOSPHERIC ENTRY (seconds). The atmosphere cannot decelerate a
       300-km body: the column density of air (~10 t/m2) is negligible
-      compared to the body's surface density (~2.4 × 10^9 t/m2). The
+      compared to the body's surface density (the mass per
+      cross-sectional area: ~1.6 × 10^9 kg/m2 ~ 1.6 × 10^6 t/m2). The
       body enters at full cosmic velocity.
       [Comparison: the Hoba meteorite (60 t) was decelerated because
       its surface density (~8 t/m2) is comparable to the atmosphere.
@@ -240,21 +243,16 @@ structures co-rotate, so the front arrival times in the eastern and
 western sectors coincide to within second-order corrections
 ((v_rot/c)^2 ~ 1%, where v_rot = 465 m/s is the equatorial rotation
 velocity and c ~ 4 km/s is the wave velocity in the lithospheric
-waveguide). The loading asymmetry, however, is first-order: the
-relative velocity with which the front sweeps over the material
-differs:
-
-  eastern sector:  c - v_rot ≈ 3.5 km/s  (longer loading impulse)
-  western sector:  c + v_rot ≈ 4.5 km/s  (shorter loading impulse)
-
-The loading durations differ by about 26%. Because the effective rock
-strength depends on the loading rate (it is lower for slower loading),
-the eastern sector fails at lower stresses and is engaged in the spall
-earlier than the western one. The effect is qualitative; its
-quantitative significance is subject to modeling (§18). The overall
-hemispheric asymmetry is
-further set by the directed impulse of the impactor (entry against
-rotation, westward; p = 3.3 × 10^24 kg·m/s, §3.3) and by the Coriolis
+waveguide). The loading asymmetry requires a strict reference frame.
+The quantities c - v_rot (~3.5 km/s) and c + v_rot (~4.5 km/s) are
+the front velocities relative to surface points in the inertial
+frame; for waves carried by the rotating crust, the loading duration
+of a point in the co-moving frame is the same in both sectors, and
+the rotational asymmetry reduces to second-order corrections (~1%).
+The first-order asymmetry in the model is set not by the rotation but
+by the directed impulse of the impactor (entry against
+rotation, westward; p = 3.3 × 10^24 kg·m/s, §3.3), by the shift of
+the effective source during penetration, and by the Coriolis
 curving of the diverging material: inertial-circle radii
 r = v/(2 omega sin phi) range from tens to thousands of kilometers, so
 panel trajectories are not straight radial lines but curved arcs with
@@ -339,27 +337,40 @@ rifts (the Black Sea, the Mediterranean) and the ragged outlines of
 Europe. Arabia and Africa detached along boundaries of weakness and
 moved toward the American panels, closing the re-accretion belt.
 
-### 4.5. Exponential Deceleration
+### 4.5. Impulse Phase of the Divergence and Motion Maintenance
 
-Plate velocity decays exponentially:
+Panel velocity in the impulse phase decays exponentially:
   v(t) = v0 × exp(-t / tau)
 
   v0 = 500 m/s (initial divergence velocity)
-  v(12,000 yr) = 0.08 m/yr = 8 cm/yr (observed)
-  tau = 462 years
+  tau ≈ 20 hours (the time of active loading by the front)
 
-  During the first relaxation time a plate covers 1 - 1/e ≈ 63% of
-  its total path; during two — ~86%.
+The total panel path under this law:
+  S = v0 × tau = 500 m/s × 7.2 × 10^4 s ≈ 3.6 × 10^4 km,
+consistent with the geometric estimate of the total path of the
+South America panel (§4.4): ~3.5 × 10^4 km. During the first relaxation time a panel
+covers 1 - 1/e ≈ 63% of its total path; during two — ~86%.
 
-  Velocity table:
+Energy check: the kinetic energy of the lithosphere (mass ~1.7 ×
+10^23 kg) at v0 = 500 m/s is ~2.1 × 10^28 J — about 40% of the
+impact energy (5 × 10^28 J); the rest is spent on fracturing,
+deformation, and heating. Notably higher initial velocities
+(kilometers per second and above) exceed the energy budget.
+
+Impulse-phase velocity table:
   | Time         | Velocity   |
   |--------------|------------|
   | 0 (impact)   | 500 m/s    |
-  | 462 years    | 184 m/s    |
-  | 1,000 years  | 67.6 m/s   |
-  | 12,000 years | 0.08 m/yr  |
+  | 20 hours     | 184 m/s    |
+  | 2 days       | 45 m/s     |
+  | 10 days      | ~0.003 m/s |
 
-The currently observed plate velocity (~8 cm/yr) matches the model.
+The impulse phase completes within weeks: the divergence of the
+panels is a rapid geological event, not a centuries-long drift.
+
+The present plate velocity (~8 cm/yr) in the model is not the tail of
+the impulse exponential (it burns out within weeks) but a separate
+motion-maintenance process.
 
 A note on motion maintenance. Present-day absolute plate motions are
 westward-polarized: a systematic westward component is seen in GPS
@@ -414,7 +425,7 @@ the impact model.
 
 An additional conflict: subsections 4.2-4.4 presuppose the existence
 of a tangency circle as the boundary of the loading-regime change and
-a recent (~12,000 yr) spall of the upper crust. In linear elasticity
+a recent (~12,800 yr) spall of the upper crust. In linear elasticity
 surface waves circle the planet along complete loops with no sharp
 boundary at the 90° circle, and the biostratigraphy of the Atlantic
 floor indicates an ocean many times older. Both conflicts are
@@ -436,9 +447,10 @@ Tarim Basin. This is taken as an argument that their uplift is a
 consequence of a single process rather than independent collisions.
 
 The standard model explains these mountains by the India-Eurasia
-plate collision (Miocene, ~50 Ma). Within the impact paradigm the
-collision may be reinterpreted as a consequence of the initial
-plate divergence from the impact and their subsequent encounter.
+plate collision (initial contact ~65-59 Ma in modern reviews; Wang
+et al., 2025; the hard-collision stage ~50-45 Ma). Within the impact
+paradigm the collision may be reinterpreted as a consequence of the
+initial plate divergence from the impact and their subsequent encounter.
 
 Open question (§17): thermochronological data indicate multi-stage
 uplift. Within the impact paradigm this requires reinterpretation,
@@ -511,16 +523,22 @@ by focusing of impact-generated seismic waves (Lü et al., 2011).
 
 ### 7.2. Chicxulub as a Possible Antipodal Structure
 
-Antipode of Tarim: 39°S, 97°W. Seismic waves focused at the antipode
-are shifted due to Earth's rotation during wave transit (~20 min)
-and due to wave-beam tilt from the 37° entry angle.
+The geometric antipode of Tarim: 39°S, 97°W; Chicxulub: 21.3°N,
+89.7°W — the angular distance between them is ~61°. Earth's rotation
+during PKP-wave transit (~20 min) gives ~5° of longitude and
+contributes little; for waves carried by the rotating planet, no
+first-order rotation-induced displacement arises (§4.2). Focusing
+displacements of tens of degrees require an oblique source — the
+wave-beam tilt at a 37° entry and the planet's volumetric
+heterogeneity. The quantitative focal position is a task for 3D
+wave-propagation modeling (test 12); without it, the focal latitude
+is not computed strictly.
 
-Calculated focus: ~21°N, ~92°W
-Chicxulub:        21.3°N, 89.7°W
-
-Chicxulub falls within the 84-92°W focusing band. Within the impact
-paradigm, the Chicxulub structure could have been modified by
-antipodal wave focusing from the Tarim impact.
+Focus estimate: ~21°N, ~92°W (agreement with Chicxulub in longitude
+within ~5°; in latitude — approximate). Within the impact paradigm,
+the Chicxulub structure could have been modified by antipodal wave
+focusing from the Tarim impact; the crater itself formed as a
+separate, earlier event (~66 Ma, §7.3).
 
 Testable prediction: shock minerals in Chicxulub rocks should show
 isotropic (non-directed) orientation if deformation is caused by
@@ -576,9 +594,14 @@ Independent support for an impact origin of basal mantle anomalies
 appeared in 2023: numerical modeling showed that large impacts can
 form stable provinces of seismically slow material at the core-mantle
 boundary, analogous to the observed LLSVPs (Yuan et al., 2023, Nature
-623). Within the impact paradigm this result transfers to a smaller
-scale: the 300-km impactor is the source of the observed LLSVP pair,
-and its asymmetry (see above) follows from the directed 37° entry.
+623). A scale caveat: Yuan et al. model the Moon-forming impact (a
+Mars-sized body), orders of magnitude larger; the mechanism "impact
+material reaches the core-mantle boundary and forms slow provinces"
+is demonstrated for that scale, and its transfer to a smaller one
+requires a separate numerical calculation (test 11). Within the
+impact paradigm the 300-km impactor is a candidate source of the
+observed LLSVP pair, and its asymmetry (see above) follows from the
+directed 37° entry.
 
 Further support: a 2025 seismological analysis shows that the two
 LLVPs have distinct compositions and evolutionary histories (Panton
@@ -627,7 +650,7 @@ be distinguished:
     gravitational torque of the Sun and Moon on the equatorial
     bulge; period ~25,771 years; it existed before the impact and is
     not created by it;
-  - true polar wander — a single damped (tau ~ 3,000 years, §10.2)
+  - true polar wander — a single damped (tau ~ 1,200 years, §10.2)
     rotation of the figure relative to the unchanged axis; this is
     what the impact could initiate;
   - a change of the tilt to the ecliptic (obliquity) — the
@@ -670,8 +693,8 @@ The impact supplies such a redistribution through two mechanisms:
 
   (a) Core displacement. The initial displacement is ~850 m; the
       quasi-static effective displacement in the perturbed mantle is
-      ~8.6 km (recovered in the numerical TPW model from the observed
-      wander rate ~0.5"/yr). A displacement of the 1.94 × 10^24 kg
+      ~8.6 km (the inertia-tensor requirement of 1.1 × 10^35 kg·m2,
+      computed below). A displacement of the 1.94 × 10^24 kg
       core by ~8.6 km shifts the mantle's center of mass by ~4 km and
       creates an inertia-tensor perturbation of order 10^35 kg·m2 —
       the same order as the required 1.1 × 10^35.
@@ -681,10 +704,19 @@ The impact supplies such a redistribution through two mechanisms:
       additional inertia-tensor imbalance.
 
 The consistency is meaningful: the effective core displacement of
-8.6 km, obtained from an independent quantity (the TPW rate),
-corresponds to the displacement required for the full 23.44° tilt via
-the inertia tensor: d_req = (C - A)·tan(23.44°)/(2 m_core R) ≈ 4-9 km
+8.6 km corresponds to the displacement required for the full 23.44°
+figure rotation via the inertia tensor: d_req =
+(C - A)·tan(23.44°)/(2 m_core R) ≈ 4-9 km
 depending on the lever-arm geometry.
+
+The geodetic constraint. The observed present-day polar wander is
+~0.003"/yr (on the order of 1° per million years). At tau ~ 1,200
+years, the initial rate of the figure rotation (23.44° / 1,200 yr ~
+70"/yr) burns down to the observed level within ~5 tau (~6,000
+years): the residual rate by the present is ~0.003"/yr, comparable
+to the geodetic background, while the rate in the first centuries
+after the event is orders of magnitude higher — a testable
+consequence for paleomagnetic and archaeomagnetic records (§10.4).
 
 Level-by-level decomposition and the angular momentum conservation
 bound. The impactor's angular momentum is compared not only with the
@@ -768,7 +800,7 @@ astronomy (Laskar solutions, La2004/La2010) treats obliquity as the
 Milankovitch cycle (22.1°-24.5°, period 41,000 years), traced in
 marine sediments over hundreds of millions of years (Zachos et al.,
 2001). By these data,
-~12,000 years ago obliquity was ~24°.
+~12,800 years ago obliquity was ~24°.
 
 Within the impact paradigm this requires reinterpretation:
   (a) Either the Milankovitch cycles in δ18O have a different cause,
@@ -795,7 +827,7 @@ require: the TPW path describes a pole shift at unchanged obliquity.
 
 ### 10.4. Testable Prediction
 
-If the axis shifted ~12,000 years ago, paleomagnetic evidence of an
+If the axis shifted ~12,800 years ago, paleomagnetic evidence of an
 abrupt pole-position change on this interval should exist.
 Archaeomagnetic and paleomagnetic data (GEOMAGIAIA50, sediment
 records) may contain this signal.
@@ -814,6 +846,14 @@ records) may contain this signal.
     near-total surface darkness --- Bardeen et al., 2017)
   - Possible climate-zone shifts (TPW)
   - Water-mass redistribution
+
+A quantitative atmospheric budget for the Tarim scenario has not been
+computed: the masses of dust, soot, water vapor, and aerosols, the
+injection height, and the atmospheric residence time are the subject
+of numerical modeling (tests 11-12). The K-Pg estimate of 15,000 Tg
+of soot is a scale anchor for an event orders of magnitude larger;
+linear extrapolation is incorrect. Verification — comparison against
+ice cores, marine and lacustrine sediments, and speleothems (§18).
 
 ### 11.3. Younger Dryas (~12,800 cal BP)
 
@@ -841,9 +881,18 @@ and possible climate-zone restructuring.
 
 ### 12.1. Megafauna Extinction
 
-Synchronous extinction of mammoths, giant sloths, cave bears, saber-toothed
-cats at the Pleistocene/Holocene boundary. Eurasian species show genetic
-bottlenecks; African species do not.
+Extinction of continental mammoths, giant sloths, cave bears, and
+saber-toothed cats within the Pleistocene/Holocene boundary interval.
+Eurasian species show genetic
+bottlenecks; African species do not. The chronology is not strictly
+synchronous and is recorded honestly: the main extinction of the
+Australian megafauna precedes the boundary (~40-50 ka) and lies
+outside the damage zone — the paradigm does not explain it, and it
+remains with the competing causes (climate, humans); some mammoth
+populations persisted for a long time (Wrangel Island — until ~4 ka).
+A testable consequence of the paradigm: a concentration of regional
+population-extinction dates near the event interval within the zone
+of ballistic and thermal damage (§18).
 
 The zone of ballistic and thermal damage with a characteristic radius
 of ~6,000 km covers Eastern Siberia (~4,000-6,000 km from the
@@ -868,19 +917,31 @@ simultaneously in several regions.
 
 ### 13.1. Osmium Isotopes (Os)
 
-Beets et al. (2008): 187Os/188Os = 0.53 at the Younger Dryas boundary
-(~12,800 cal BP), compared to background values >1.1. This corresponds to
-~57% extraterrestrial osmium in sediments. Signal/background ~18,000×.
-The shift of the seawater osmium isotope composition over this
-interval is also documented in independent sections (Oxburgh, 1998).
-The signal scale is calibrated by independent basins: in a 20-kyr
+A conference abstract by Beets et al. (2008, AGU Fall Meeting; no
+extended peer-reviewed paper exists): in a terrigenous Usselo-horizon
+section 187Os/188Os = 0.53 within an interval of values >1.1,
+corresponding to ~57% extraterrestrial osmium in the sediments. The
+source status is recorded honestly. A direct peer-reviewed test in
+marine sections returned a negative result: across the
+Bolling-Allerod/Younger Dryas transition 187Os/188Os stays within a
+few percent of present-day seawater, with no extraterrestrial input
+(Paquay et al., 2009); the reply points to unanalyzed magnetic
+fractions enriched in iridium (Bunch et al., 2010). The osmium
+argument remains unresolved: terrigenous and marine sections give
+different answers; the discriminating test is systematic Os mapping
+of the boundary by section type (test 7). Climatic calibration of
+the scale: in a 20-kyr
 record of the seawater osmium isotope composition from the Okinawa
 Trough, shifts amount to only ~5-8% — during cold intervals
 (including the Younger Dryas boundary) values shift toward less
 radiogenic compositions, which the authors attribute to water-mass
-change and reduced continental flux (Lim et al., 2026); the climatic
-component is an order of magnitude smaller than the boundary's impact
-shift (0.53 vs >1.1).
+change and reduced continental flux (Lim et al., 2026); global
+records give the same order: shifts toward ~8.1 in 187Os/186Os
+(equivalent to ~0.97 in 187Os/188Os) over late-glacial intervals of
+elevated aridity (Oxburgh, 1998; the ratio conventions differ and
+are comparable only through conversion). The climatic
+component is an order of magnitude smaller than the claimed
+terrigenous signal (0.53 vs >1.1).
 
 ### 13.2. Platinum Anomaly (Pt)
 
@@ -948,7 +1009,7 @@ event (Young, 2025).
 ### 13.4. PGE Spectrum as a Discriminating Test
 
 Testable prediction: a PGE-spectrum measurement (Pt/Ir, Pt/Pd, Os/Ir,
-Ru/Ir) in Tarim Basin sediments at ~12,000-year depth should show
+Ru/Ir) in Tarim Basin sediments at ~12,800-year depth should show
 superchondritic ratios characteristic of Fe-Ni material (cf. PGE
 spectra of iron meteorites: Campbell, Humayun, 2005).
 
@@ -975,8 +1036,9 @@ significantly thinner layer for two reasons:
     than vertical ones (Schultz, 1987), diluting the impactor
     signature and suppressing shock minerals in the impact area.
 
-The observed state — thin layers with Os ~57% and Pt ~100× above
-background (13.1-13.2) — corresponds precisely to this regime: the
+The observed state — thin layers: the claimed terrigenous Os signal
+(13.1, contested status) and Pt ~100× above
+background (13.2) — corresponds precisely to this regime: the
 high velocity (30 km/s) and oblique entry (37°) predict a weak but
 globally traceable layer, which is what is observed. Recent
 experiments and numerical studies of oblique impacts document a
@@ -999,7 +1061,7 @@ Radioisotopic methods (⁴⁰Ar/³⁹Ar, K-Ar, U-Pb) and the geomagnetic
 polarity timescale (GPTS) assign ages from millions to billions of
 years to mountains, oceanic crust, craters, and sediments. Within
 the impact paradigm these ages require reinterpretation if most
-observable structures formed ~12,000 years ago.
+observable structures formed ~12,800 years ago.
 
 ### 14.2. Possible Distortion Mechanisms
 
@@ -1010,8 +1072,16 @@ Within the impact paradigm we propose considering:
       Heating resets radioisotopic clocks (element diffusion, argon
       loss). Reheated rocks can yield a "false" age reflecting the
       last heating event, not the time of primary formation.
-      Within the paradigm: "million-year" ages may reflect the time
-      of the last impact heating, not the true age of the rocks.
+      A hard consequence bounding the mechanism: with a FULL reset,
+      all clocks would read ~12,800 years — the observed ages of
+      tens to hundreds of millions of years exclude a full reset for
+      the bulk of the rocks. Two testable variants remain: partial
+      resetting with measurable consequences (systematic age
+      underestimation, discordance between systems with different
+      closure temperatures), or heating localized near the impact.
+      "Million-year" ages as heating artifacts are possible only with
+      partial resetting and must show a measurable correlation with
+      the degree of overheating — testable (test 13).
 
   (b) Sediment mixing. An impact fracturing the lithosphere to 12 km
       depth mixes sediments of different ages. The Kola borehole found
@@ -1019,7 +1089,7 @@ Within the impact paradigm we propose considering:
       impact paradigm: surface sediments forced down by the impact.
 
   (c) Magnetic stripes as a record of a single event. If oceanic crust
-      formed along fracture lines ~12,000 years ago, magnetic stripes
+      formed along fracture lines ~12,800 years ago, magnetic stripes
       may reflect not a million-year record of reversals, but the
       spatial structure of magnetization as basalts cooled along
       fractures.
@@ -1076,7 +1146,7 @@ atmospheric entry and landed in Africa. The absence of a crater is
 explained by deceleration of the fragment.
 
 Note: for a 300-km body atmospheric deceleration is impossible (surface
-density ~2.4×10^9 t/m2 vs atmosphere ~10 t/m2). The main body would
+density ~1.6×10^9 kg/m2 ~ 1.6×10^6 t/m2 vs atmosphere ~10 t/m2). The main body would
 enter at full velocity. But small fragments (meters to tens of meters)
 detached from the main body can be decelerated by the atmosphere and
 fall "softly," like Hoba.
@@ -1118,13 +1188,19 @@ interpretation differs (a cold cratonic root in the standard model,
 a buried body in the paradigm). Discriminating test — Vp/Vs ratio and
 density (§18).
 
-### 15.4. Independent Qualitative Identifications
+### 15.4. Qualitative Identifications in the Literature
 
-The impact nature of the Tarim Basin has been independently pointed
-out in three unrelated sources:
+The impact interpretation of the Tarim Basin has been qualitatively
+voiced in sources of different status (each status is stated honestly;
+none of these claims constitutes a diagnostic confirmation — modern
+criteria for confirming an impact origin require shock-metamorphic
+structures and/or an extraterrestrial geochemical signature:
+Cavosie et al., 2026):
 
   - Morphological analysis of the rhombic astrobleme ~1,500 × 600 km
-    (Ernstson, Claudin, 2020).
+    (Ernstson, Claudin, 2020 — a non-peer-reviewed web publication;
+    its authors themselves note that the shape may also be explained
+    by tectonics).
   - A qualitative comparison of the Tarim Basin, the Black Sea and
     the South Caspian as elliptical impact-type basins (Burgener,
     2015 — an unpublished draft). Common features of these basins:
@@ -1133,22 +1209,29 @@ out in three unrelated sources:
     amid active surrounding tectonics, and compression of the
     surroundings directed away from the basins.
   - The present work (divergence geometry, antipodal structures,
-    geochemical markers).
+    geochemical markers — a model interpretation).
 
 The geophysical features (seismic quietness, undisturbed sediments,
 outward compression of the surroundings) agree with a model of
 one-time cavity formation followed by sedimentary filling and do not
-require ongoing active tectonics.
+require ongoing active tectonics, but they do not distinguish an
+impact from a non-impact origin of the cavities. A diagnostic
+confirmation — shocked quartz, impact glass, geochemical markers
+(test 3).
 
 ## 16. MYTHOLOGICAL EVIDENCE
 
 ### 16.1. Principle
 
-If a planetary event occurred ~12,000 years ago, it must have been
+If a planetary event occurred ~12,800 years ago, it must have been
 observed by humans across the Earth. Oral tradition transmitted over
-~400 generations could survive as catastrophe myths. The concordance
-of imagery across independent cultures is an argument for a real event
-rather than independent invention.
+~400 generations could survive as catastrophe myths.
+Mythological evidence is auxiliary historical-cultural material,
+not part of the evidentiary base: using it requires dating the texts,
+their transmission history, and excluding borrowings.
+The concordance of imagery across independent cultures is an
+observation requiring explanation; by itself it does not prove a
+single event.
 
 ### 16.2. Summary Table of Myths
 
@@ -1183,8 +1266,8 @@ nor old age"), the image of Eden — describe a world with an even
 climate and end with a catastrophe (a flood or fire from the sky).
 In Plato (Timaeus, Critias), the destruction of the prime island is
 dated to 9,000 years before Solon — around 9,600 BCE (~11,600 years
-ago), close to the model dating of the event (~12,000 years ago,
-§4.5). Within the
+ago), close to the event dating (~12,800 years ago,
+§1.3). Within the
 impact paradigm, the motif of an even climate is a memory
 of the pre-impact climatic regime, and the shared ending is a memory
 of the event. The physical interpretation of the pre-impact axial
@@ -1231,6 +1314,11 @@ Acknowledged open questions:
   (c) MAGNETIC STRIPES. The standard model (Vine-Matthews-Morley)
       is confirmed by three independent methods. Within the impact
       paradigm an alternative stripe-formation mechanism is required.
+      A hard numerical edge of the conflict: the mean age of the
+      preserved oceanic crust is 64.2 Ma, the maximum ~180 Ma
+      (Seton et al., 2020) — three orders of magnitude above the
+      model crust age of ~12,800 years; this is assigned to the
+      testable predictions (§18).
 
   (d) GRAVITY ANOMALY. If a buried body of 10^20 kg is present in the
       mantle beneath the Tarim, a positive gravity anomaly of
@@ -1241,7 +1329,7 @@ Acknowledged open questions:
       redistribution, or another scenario. A possible path: the body
       dissolved and redistributed spherically symmetrically (yielding
       no local anomaly), but the mechanism for such redistribution
-      over 12,000 years requires study.
+      over 12,800 years requires study.
 
   (e) IMPACT FREQUENCY. Estimates of impact rates for 300-km bodies
       yield intervals far exceeding the age of Earth. Within the
@@ -1250,14 +1338,18 @@ Acknowledged open questions:
       body. A candidate reservoir is the disrupted cometary nucleus
       of the Taurid complex: the coherent-catastrophism model
       predicts a series of impacts from a single breakup (Napier,
-      2010; Asher et al., 1994); a 300-km body requires a progenitor
-      larger than the observed Taurids (the core of a differentiated
-      protoplanet, §2). The Taurid Resonant Swarm has been traced
-      observationally: a reanalysis of the 2022 ZTF survey estimates
+      2010; Asher et al., 1994). Observational constraints: the
+      progenitor of the resonant swarm is estimated as a body of a
+      few to a few tens of kilometers, comparable to 2P/Encke, with
+      no unnoticed kilometer-class members (Li et al., 2025); a
+      reanalysis of the 2022 ZTF survey estimates
       roughly 10² Tunguska-sized and 10³ Chelyabinsk-sized objects
       within it, with the caveat that the estimate rests on an
       assumption about the shared orbital distribution not yet
-      verified by independent data (Ye et al., 2026).
+      verified by independent data (Ye et al., 2026). A 300-km body
+      is not supplied by the present-day Taurid reservoir — this
+      mismatch is recorded honestly: a larger progenitor is required
+      (the core of a differentiated protoplanet, §2).
       Empirical context on frequency: confirmed Holocene craters were
       unknown until recently, but their discovery continues — Jinlin
       in Guangdong Province (Chen et al., 2025), the largest confirmed
@@ -1285,49 +1377,81 @@ points, and resolving these conflicts is a condition of its acceptance.
 
 ## 18. TESTABLE PREDICTIONS
 
+For each test, not only the expected result but also the result that
+would refute the hypothesis is fixed in advance. Tests 11-12
+(numerical models) are a necessary condition for checking the central
+physical scenario, not an optional long-term addition.
+
 ### 18.1. High Priority (testable on existing data)
 
   1. Shock minerals at Chicxulub — isotropic orientation (reanalysis
-     of IODP Expedition 364 cores).
+     of IODP Expedition 364 cores). Refutation: a systematically
+     directed orientation compatible only with a direct strike.
 
-  2. PGE spectrum in Tarim Basin sediments at ~12,000-year depth —
+  2. PGE spectrum in Tarim Basin sediments at ~12,800-year depth —
      superchondritic Pt/Ir, Pt/Pd characteristic of Fe-Ni.
+     Refutation: only chondritic or terrestrial ratios without
+     superchondritic-signature horizons.
 
   3. Impact glass and shock minerals in Tarim Basin rocks —
      systematic petrographic study, including a search for impact
-     diamonds (13.3).
+     diamonds (13.3). Refutation: no diagnostic features in any of
+     the studied cores.
 
   4. Seismic anomaly beneath the Tarim — Vp/Vs measurement to
      distinguish an Fe-Ni body from subducted lithosphere.
+     Refutation: Vp/Vs and density unambiguously matching cold
+     lithosphere.
 
   5. Geometric test of the peel line: approximation of the western
      margins of North and South America by great-circle arcs with the
      pole at the Tarim Basin; the root-mean-square deviation must be
-     systematically smaller than for the eastern (Atlantic) margins.
+     systematically smaller than for the eastern (Atlantic) margins;
+     the analysis covers the entire planetary surface, without
+     cherry-picking. Refutation: equal or worse approximation
+     quality for the western margins.
 
   6. Spall-step test: using a global crustal model (Laske et al.,
      2013) — confinement of deep-sea trenches to crustal-thickness
      steps and Moho-depth inflections along arcs close to the
      psi = 90° circle; numerical modeling of a strong impulse in a
      spherical shell (loading-regime change beyond the 90° circle).
+     Refutation: no statistical association of trenches with
+     crustal-thickness steps.
 
 ### 18.2. Medium Priority
 
-  7. Os-isotope mapping of the Younger Dryas boundary.
-  8. Archaeomagnetic data at ~12,000 BP — search for a signal of
-     abrupt pole shift.
+  7. Os-isotope mapping of the Younger Dryas boundary by section
+     type (terrigenous vs marine; the status of the Beets 2008 /
+     Paquay 2009 dispute — 13.1). Refutation: no extraterrestrial
+     input in the terrigenous sections either, with a validated
+     methodology.
+  8. Archaeomagnetic data at ~12,800 BP — search for a signal of
+     abrupt pole shift. Refutation: continuity of the virtual
+     geomagnetic pole trajectory across the event interval.
   9. Gravity anomaly — search for a possible distributed signal
-     from dissolved body material.
+     from dissolved body material. Refutation: absence of the
+     expected distributed signal for the given mass.
   10. Analysis of impact glass in the Tarim area (if found).
+      Refutation: glass composition compatible only with volcanic or
+      sedimentary melting, without shock features.
 
-### 18.3. Long-Term
+### 18.3. Numerical Models (a first-priority condition for checking the
+      scenario)
 
   11. SPH modeling of a 300-km impact — lithosphere fracturing into
       plates, mountain uplift, mantle penetration; the thickness of
-      the superficial spall (4.3).
-  12. 3D modeling of antipodal seismic-wave focusing.
-  13. Reinterpretation of geochronological data accounting for
-      impact heating.
+      the superficial spall (4.3); the fate of the impactor and the
+      ejecta distribution. Refutation: the model shows that at
+      30 km/s and 37°, mantle penetration and the upper-crust spall
+      do not occur.
+  12. 3D modeling of antipodal seismic-wave focusing, including the
+      focal position (7.2). Refutation: the focusing amplitude at
+      Chicxulub is below shock-metamorphism thresholds.
+  13. Testing the partial impact reset of geochronological systems
+      (14.2(a): a full reset is excluded). Refutation: systems with
+      different closure temperatures show a consistent age
+      underestimation within the impact zone.
 
 Data status (for tests 1, 3, 8). Summary reviews of the Chicxulub
 drilling programs have been published (Urrutia-Fucugauchi et al.,
@@ -1337,13 +1461,13 @@ material for such a re-analysis is shock-deformed age-reset zircon
 (Zhao et al., 2025). For ultra-deep drilling in the Tarim Basin, the
 first vertical seismic profiling data have been published (Wang et
 al., 2026); petrographic analysis of deep cores — none (test 3).
-Systematic archaeomagnetic data for the ~12,000 BP interval are
+Systematic archaeomagnetic data for the ~12,800 BP interval are
 absent (test 8).
 
 ## 19. CONCLUSION
 
 The Tarim Impact Hypothesis proposes to view the impact of an Fe-Ni body
-~300 km on the Tarim Basin ~12,000 years ago as the primary cause of the
+~300 km on the Tarim Basin ~12,800 years ago as the primary cause of the
 formation of most observable Earth surface features and a number of
 geophysical, climatic, and biological phenomena.
 
@@ -1389,11 +1513,15 @@ verification program and honestly acknowledges its limitations.
     Large Pt anomaly in the Greenland ice core. PNAS, 110, 12917.
 12. Moore, C.R. et al. (2017). Widespread platinum anomaly at Younger
     Dryas. Scientific Reports, 7, 44031.
-13. Beets, C.J. et al. (2008). Osmium isotope evidence. (187Os/188Os
-    = 0.53 at Allerod-Younger Dryas boundary).
+13. Beets, C., Sharma, M., Kasse, A.W., Bohncke, S.J.P. (2008).
+    Search for extraterrestrial osmium at the Allerød-Younger Dryas
+    boundary. AGU Fall Meeting Abstracts, V53A-2150 (EOS Trans. AGU,
+    89 (53)) — a conference abstract.
 14. Sun, M. et al. (2022). Flat-lying high-velocity anomaly beneath
     Tarim. Geology.
-15. Oxburgh, R. (1998). Os isotopic shift in seawater ~12,000 BP.
+15. Oxburgh, R. (1998). Variations in the osmium isotope composition
+    of sea water over the past 200,000 years. Earth and Planetary
+    Science Letters, 159, 183-191.
 16. Laskar, J. et al. (2004, 2010). Long-term orbital solutions.
     (La2004, La2010).
 17. Collins, G.S. et al. (2008). Oblique impact crater ellipticity.
@@ -1624,3 +1752,31 @@ verification program and honestly acknowledges its limitations.
     Pacific plate apparent polar wander before and after chron C24r:
     implications for true polar wander. Journal of Geophysical
     Research: Solid Earth, 131 (6).
+95. Paquay, F.S., Goderis, S., Ravizza, G., Vanhaeck, F. et al.
+    (2009). Absence of geochemical evidence for an impact event at
+    the Bølling-Allerød/Younger Dryas transition. PNAS, 106,
+    21505-21510.
+96. Bunch, T.E., West, A., Firestone, R.B., Kennett, J.P. et al.
+    (2010). Geochemical data reported by Paquay et al. do not refute
+    Younger Dryas impact event. PNAS, 107.
+97. Wang, C., Ding, L., Xiong, Z., Allen, M.B., Laskowski, A.K.,
+    Garzanti, E., Zhang, Q. (2025). Timing of initial collision and
+    suturing processes in the Himalaya and Zagros. Nature Reviews
+    Earth & Environment, 6, 357-376.
+98. Li, J.K.C., Ye, Q., Vida, D., Clark, D.L., Racine, B., Graham,
+    M.J. (2025). In search of the potentially hazardous asteroids in
+    the Taurid Resonant Swarm. The Planetary Science Journal, 6 (4),
+    94.
+99. Cavosie, A.J., Alwmark, S., Baratoux, D., Consolmagno, G.,
+    Ferrière, L. et al. (2026). Impact-diagnostic criteria for use
+    in confirming a meteorite impact origin of terrestrial geological
+    structures: recommendations by the Impact Cratering Committee of
+    the Meteoritical Society. Meteoritics & Planetary Science, 61,
+    1538-1565.
+100. Seton, M., Müller, R.D., Zahirovic, S., Williams, S., Wright,
+     N.M. et al. (2020). A global data set of present-day oceanic
+     crustal age and seafloor spreading parameters. Geochemistry,
+     Geophysics, Geosystems, 21, e2020GC009214.
+101. Cheng, H., Zhang, H., Spötl, C. et al. (2020). Timing and
+     structure of the Younger Dryas event and its underlying climate
+     dynamics. PNAS, 117, 23408-23417.

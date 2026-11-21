@@ -32,18 +32,18 @@ predictions (§18).
 | Impactor | Fe-Ni (84% Fe, 16% Ni), ⌀ 300 km, 30 km/s, 37° against rotation |
 | Mass / energy | 1.113×10²⁰ kg (0.002% of Earth) / 5.0×10²⁸ J |
 | Event date (markers) | 12,800 cal BP (GISP2 Pt peak, annual layers) |
-| Plate relaxation τ | 462 years; today ~8 cm/yr |
+| Plate divergence (two-phase, §4.5) | impulse phase τ ≈ 20 h (path v₀·τ ≈ 3.6×10⁴ km); today ~8 cm/yr = tidal ratchet |
 | Instantaneous tilt impulse | 0.125°; the rest of the reorientation is TPW |
 | Obliquity | 24.04° at 12.8 ka → 23.44° (Milankovitch, pre-existing) |
 | Wave deployment | 90° tangential circle, ~12 km crust spall, peel line 95–105° (§4.2–4.4) |
-| Antipodal focusing | Chicxulub in the 84–92°W band; gain ~4×10⁵× |
-| Geochemistry | ¹⁸⁷Os/¹⁸⁸Os = 0.53 (~57% extraterrestrial Os); Pt ×100, superchondritic Pt/Ir |
+| Antipodal focusing | instrumentally observed (Retailleau 2014; Meschede 2011); Chicxulub — candidate antipodally modified structure (§7.2, 3D model = test 12) |
+| Geochemistry | terrigenous Os signal 0.53 (contested: abstract vs peer-reviewed marine null, Paquay 2009); Pt ×100, superchondritic Pt/Ir |
 
 ## Deposit contents
 
 | File | Content |
 |---|---|
-| `tarim_impact_RU.txt` / `tarim_impact_EN.txt` | Full parallel texts (primary source; 19 sections, 94 sources) |
+| `tarim_impact_RU.txt` / `tarim_impact_EN.txt` | Full parallel texts (primary source; 19 sections, 101 sources) |
 | `tarim_impact_RU.md` / `.html` / `.docx` (+EN) | Derived formats |
 | `tarim_impact_RU.pdf` / `tarim_impact_EN.pdf` | Print versions (from .docx) |
 | `tarim_impact_RU.png` / `tarim_impact_EN.png` | Title previews |
@@ -57,11 +57,11 @@ All checks are reproducible without network access:
 
 - `tarim_impact_RU.py` / `tarim_impact_EN.py` — self-contained bundles,
   9/9 checks passed, exit 0 (run: `python tarim_impact_RU.py`)
-- `verify_tarim` — 24 numerical checks (mass/energy/geometry/osmium/axis)
+- `verify_tarim` — 26 numerical checks (mass/energy/geometry/osmium/axis)
 - `axis_mechanism_check` — 17 checks (TPW budget, conservation ceiling,
   inner-core fingerprint, Berger obliquity 24.04° at 12.8 ka)
 - `all_tests` — 11 scripts passed; 14 of 14 key numerical predictions confirmed
-- Cross-reference consistency — 94 literature entries in both languages,
+- Cross-reference consistency — 101 literature entries in both languages,
   all cited in the text, continuous numbering
 
 ## Honest scope
